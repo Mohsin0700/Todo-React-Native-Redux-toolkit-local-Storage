@@ -15,7 +15,7 @@ import {
   removeTodo,
   loadTodos,
   saveTodos,
-} from './todoSlice';
+} from '../slices/todoSlice';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const TodoComponent = () => {

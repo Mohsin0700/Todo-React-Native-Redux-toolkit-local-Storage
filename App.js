@@ -1,8 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
 import {Provider} from 'react-redux';
-import store from './app/store';
-import TodoComponent from './app/todoComponent';
+import store from './src/store/store';
+import TodoComponent from './src/screens/todoComponent';
 const App = () => {
   return (
     <Provider store={store}>
